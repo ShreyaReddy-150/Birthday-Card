@@ -3,6 +3,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Home, Repeat, Sparkles } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
+import firstPic from "../gallery/pic_1.png";
+import secondPic from "../gallery/pic_2.png";
+import thirdPic from "../gallery/pic_3.png";
+import fourthPic from "../gallery/pic_4.png";
+import fifthPic from "../gallery/pic_5.png";
 
 // Define page content structure
 interface AlbumPage {
@@ -19,27 +24,27 @@ const PhotoAlbum = () => {
   const pages: AlbumPage[] = [
     { 
       id: 1, 
-      image: "/src/gallery/pic_1.PNG",
+      image: firstPic,
       caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
     },
     { 
       id: 2, 
-      image: "/src/gallery/pic_2.PNG",
+      image: secondPic,
       caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
     },
     { 
       id: 3, 
-      image: "/src/gallery/pic_3.PNG", 
+      image: thirdPic, 
       caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
     },
     { 
       id: 4, 
-      image: "/src/gallery/pic_4.PNG", 
+      image: fourthPic, 
       caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
     },
     { 
       id: 5, 
-      image: "/src/gallery/pic_5.PNG", 
+      image: fifthPic, 
       caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
     }
   ];

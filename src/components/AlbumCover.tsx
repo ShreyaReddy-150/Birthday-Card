@@ -1,7 +1,8 @@
 import React from "react";
+import coverPic from "../gallery/cover_img.png";
 
 // Make sure the image is in the correct place; change the filename as needed!
-const COVER_IMG = "/src/gallery/cover_img.PNG"; // Replace with your uploaded image filename if needed
+const COVER_IMG = coverPic; // Replace with your uploaded image filename if needed
 
 const AlbumCover = () => <div className="relative flex flex-col items-center justify-end bg-gradient-to-br from-purple-500 via-purple-400 to-purple-600 border-4 border-yellow-300 rounded-r-2xl rounded-l-lg shadow-xl" style={{
   width: "100%",
